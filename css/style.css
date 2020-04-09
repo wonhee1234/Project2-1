@@ -1,8 +1,66 @@
 body{
-	background-color: lightblue;
+	
 }
 
 h1{
 	text-align: center;
+}
+nav{
+	text-align: center;
+	background-color: #18184e;
+	height: 60px;
+	margin-bottom: 50px;
+}
+span{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	padding: 10px 50px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+a{
+	color: #FFF;
+}
+p{
+	text-align: center;
+}
+div{
+	vertical-align: top;
+}
+img{
+	float: left;
+	display: inline-block;
+	position: relative;
+	padding-left: 50px;
+}
+h1{
+	font-size: 40px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 200px
+}
+.h{
+	positon: relative;
+	background-image: url(https://23fb88ad5ca22a1b4d32-e1951aed44f4258f5fd1721b94cf0277.ssl.cf5.rackcdn.com/IL077-ipad.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+.a{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);                                                                 
+	z-index:1;
+}
+.b{
+	position: absolute;
+	height: 105%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);                                                                 
+	z-index:1;
+	color: white;
 }
 
