@@ -19,11 +19,12 @@ div{
 	vertical-align: top;
 }
 h1{
+  position: relative;
   text-align:center;
   font-size: 1.5em;
   padding-bottom: 10px;
 }
-h1.img{
+img{
 	vertical-align: left;
 	display: inline-block;
 	position: relative;
