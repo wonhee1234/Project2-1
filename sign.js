@@ -22,20 +22,16 @@ function validate(){
 		alert("please Enter your Check Password");
 		return false;
 	}
-	if(f.birth_year.value == ""){
-		alert("please Enter your Check Password");
-		return false;
-	}
 	
-   if(f.emailad.value == ""){
-      alert("please Enter your Email address");
-      return false;
-   }
-   if(f.phonenum.value == ""){
-      alert("please Enter your Phone number");
-      return false;
-   } 
-   if(f.password.value != f.chpassword.value){
+   	if(f.emailad.value == ""){
+      		alert("please Enter your Email address");
+      		return false;
+  	 }
+   	if(f.phonenum.value == ""){
+      		alert("please Enter your Phone number");
+      		return false;
+   	} 
+   	if(f.password.value != f.chpassword.value){
 		alert('The passwords are different from each other')
 		return false;
 	}
