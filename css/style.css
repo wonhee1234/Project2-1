@@ -18,17 +18,17 @@ a{
 div{
 	vertical-align: top;
 }
-h1 img{
-	vertical-align: left;
-	display: inline-block;
-	position: relative;
-	margin-left: 10px;
-}
 h1{
-	position: relative;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  text-align:center;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+h1 img{
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
 }
 h2{
 	position: relative;
