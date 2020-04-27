@@ -18,7 +18,7 @@ a{
 div{
 	vertical-align: top;
 }
-img{
+h1 img{
 	vertical-align: left;
 	display: inline-block;
 	position: relative;
@@ -28,7 +28,7 @@ h1{
 	position: relative;
 	text-align: center;
 	margin-top: 0px;
-	
+	margin-bottom: 10px;
 }
 h2{
 	position: relative;
