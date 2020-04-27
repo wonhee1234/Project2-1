@@ -63,35 +63,27 @@ div.container {
     width: 600px;
 	color:#FFF
 	}
-.form-area table {
-		
-    	border: 2px solid #00004d;
-		margin-bottom: 15px;
-		margin-top: 50px;
-		border-collapse: collapse;
-		width: 100%;
-		
-	}
-.form-area table tr td {
-	
-		border-bottom: 2px solid #00004d;
-		background-color: #fff;
-    	padding: 5px 10px;
-
-	}
+.top{
+	margin-top: 50px;
+}	
+.form-area ul li{
+	border: 1px solid #00004d;
+	width: 100%;
+	margin: 0px;
+	height: 60px;
+} 
 .input-text {
-		
-		border: none;
-		height: 30px;
-		padding: 2px 0px;
-		width: 100%;
-		font-size: 15px;
-		background-color: #fff;
-	}
+	border: none;
+	height: 30px;
+	padding: 2px 0px;
+	width: 100%;
+	font-size: 15px;
+	background-color: #fff;
+}
 
 input::-webkit-input-placeholder { 
-		color: #00004d; 
-	}
+	color: #00004d; 
+}
 
 	
 .button-area {
@@ -112,4 +104,12 @@ input::-webkit-input-placeholder {
 		background-color: #00004d;
 		color: #FFF;
 	}
-
+.f18{
+	font-size: 18px;
+}
+.f25{
+	font-size: 25px;
+}
+.fb{
+	font-weight: bold;
+}
